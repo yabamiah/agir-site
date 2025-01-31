@@ -3,43 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relatório Power BI</title>
+    <title>AGIR - Automação para Governança Inteligente</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
             background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #005a30;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        h2 {
+            color: #005a30;
         }
         iframe {
-            width: 90%;
-            height: 80vh;
+            width: 100%;
+            height: 500px;
             border: none;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         button {
-            margin-top: 20px;
-            padding: 10px 20px;
+            display: block;
+            width: 100%;
+            padding: 10px;
             font-size: 16px;
             cursor: pointer;
-            background-color: #0078d4;
+            background-color: #003366;
             color: white;
             border: none;
             border-radius: 5px;
+            margin-top: 20px;
         }
         button:hover {
-            background-color: #005a9e;
+            background-color: #002244;
         }
     </style>
 </head>
 <body>
-    <h1>Relatório Power BI</h1>
-    <iframe title="teste" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZTY0ZTBlZGMtNTg2YS00ZjJlLTg2NDYtMjNlMDBkNGM1OTQ4IiwidCI6ImVjMzU5YmExLTYzMGItNGQyYi1iODMzLWM4ZTZkNDhmODA1OSJ9" frameborder="0" allowFullScreen="true"></iframe>  
+    <header>AGIR - Automação para uma Governança Inteligente e Responsável no DF</header>
+    <div class="container">
+        <h2>Sobre o Projeto</h2>
+        <p>
+            O projeto AGIR tem como objetivo analisar a disseminação da governança pública e dos programas de integridade no setor público do Distrito Federal. 
+            Entre as principais metas estão:
+        </p>
+        <ul>
+            <li>Desenvolver um sistema de automação (RPA) para buscar programas de integridade.</li>
+            <li>Criar um painel de transparência ativa para verificação da conformidade.</li>
+            <li>Elaborar um indicador de conformidade dos programas de integridade.</li>
+        </ul>
+        <h2>Metodologia</h2>
+        <p>
+            Para atingir seus objetivos, o projeto utilizará tecnologias avançadas para coleta de dados automatizada e análise de governança pública, 
+            além de realizar estudos aprofundados sobre melhores práticas de integridade no setor público.
+        </p>
+        <h2>Relatório Power BI</h2>
+        <iframe title="Relatório Power BI" src="https://app.powerbi.com/view?r=eyJrIjoiZTY0ZTBlZGMtNTg2YS00ZjJlLTg2NDYtMjNlMDBkNGM1OTQ4IiwidCI6ImVjMzU5YmExLTYzMGItNGQyYi1iODMzLWM4ZTZkNDhmODA1OSJ9" allowFullScreen="true"></iframe>
+        <button onclick="window.open('https://app.powerbi.com', '_blank')">Acessar Relatório Completo</button>
+    </div>
     <script src="//code.tidio.co/shl7w0vnfdrsx2fxcpwaxzbvtrmqxbrd.js" async></script>
 </body>
 </html>
